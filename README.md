@@ -57,4 +57,7 @@ En las rutas protegidas, agregar el token como Bearer Token en los headers
 
 
 
+📚 Documentación de la API
+La documentación de todos los endpoints está disponible en el archivo:
 
+📄 Api_Rest_Laravel_JWT.postman_collection.json
