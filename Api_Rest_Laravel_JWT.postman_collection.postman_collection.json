@@ -191,6 +191,36 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzQ0NDkwNDg5LCJleHAiOjE3NDQ0OTQwODksIm5iZiI6MTc0NDQ5MDQ4OSwianRpIjoiU0pQQXdDTENidDNoanhrdiIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0._dnDjrcRzJGkuYnqMVhe3HkG_J6SQZUeTUNasuSv7yI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"logout"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"description": "Endpoints para gestionar todo lo relacionado con la autenticación de usuarios."
